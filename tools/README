@@ -1,0 +1,37 @@
+This program was written in French.  The help screen (displayed when
+LZEXE is executed without any arguments) is in French and cannot be
+hacked into English because it's encrypted, compressed, etc.  The info
+displayed is just a summary of the doc file.  The latter has been
+translated very quickly into English.
+It seems like a very useful and good program.  I tried it a few times,
+and it worked flawlessly.
+
+The translator.
+
+Luigi M. Bianchi
+414 Atkinson, York University
+4700 Keele Street]
+North York, Ontario
+M3J 1P3 Canada
+
+-------------------
+
+Errata and addenda for version 0.91 by
+
+earle robinson 70004,1762
+
+-------------------
+
+With the advent of UNLZEXE, I was able to translate most of the messages
+in the LZEXE program suite into English.
+
+I also was able to fix a bug that caused some programs to report "Invalid
+drive specification" errors when lzexe'd  (DOS 3.3 XCOPY is an example of
+such a program).
+
+Original French executables and documentation are in subdirectory FRENCH.
+
+Also included is UNLZEXE.EXE version 0.5 written by Mitugu(Kou) Kurizono.
+
+
+Mark Armbrust / 70 So. 31st / Boulder CO 80303 / USA

@@ -1,0 +1,17 @@
+COMOTEXE.EXE v1.00 (c) Fabrice Bellard
+
+This very simple program converts a COM (or BIN) file into an EXE file.  In
+fact, it does exactly the reverse of what EXE2BIN does.  It is the ideal
+complement of LZEXE, by the same author, since, thanks to COMTOEXE, LZEXE can
+also compress COM files.
+
+    Syntax:  COMTOEXE filename[.com] [filename2[.exe]]
+
+where filename is the name of the COM file to be converted.  The COM extension
+is added automatically by COMTOEXE.  The original COM file is NOT erased, for
+safety sake.  The 'filename2' is optional.  If not added, the new EXE file will
+have the same name.
+
+N.B.  Some COM files may not work correctly after the conversions, because some
+DOS programs, such as COMMAND.COM, may need to know the exact structure of the
+file, and the conversion to an EXE file does modify this structure.
